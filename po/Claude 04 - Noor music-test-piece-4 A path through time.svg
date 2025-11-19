@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#2a2a3e;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#3a3a4e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a3e;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="warmth" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a6080;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#8a7060;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#4a6080;stop-opacity:0.3" />
+    </linearGradient>
+    
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg4)"/>
+  
+  <!-- The journey - a path that curves and deepens -->
+  <path d="M 50,400 Q 200,380 300,350 T 500,280 T 700,320" 
+        stroke="#7a8aa0" 
+        stroke-width="4" 
+        fill="none" 
+        opacity="0.4"/>
+  
+  <!-- Beginning - simple, clear -->
+  <circle cx="50" cy="400" r="8" fill="#6a8aaa" opacity="0.5"/>
+  
+  <!-- The intensification - the cresc. and ff -->
+  <g opacity="0.6">
+    <ellipse cx="500" cy="280" rx="80" ry="60" fill="#aa7060" opacity="0.3" filter="url(#soft)"/>
+    <ellipse cx="500" cy="280" rx="60" ry="45" fill="#cc8070" opacity="0.4" filter="url(#soft)"/>
+    <ellipse cx="500" cy="280" rx="40" ry="30" fill="#dd9080" opacity="0.5"/>
+  </g>
+  
+  <!-- The resolution - p legato, flowing onward -->
+  <path d="M 550,300 Q 600,310 650,315 Q 700,318 750,320" 
+        stroke="#8a9ab0" 
+        stroke-width="3" 
+        fill="none" 
+        opacity="0.5">
+    <animate attributeName="opacity" 
+             values="0.4;0.6;0.4" 
+             dur="4s" 
+             repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Chromatic richness - the many modulations, the depth -->
+  <g opacity="0.3">
+    <line x1="150" y1="380" x2="170" y2="360" stroke="#9a9ac0" stroke-width="1"/>
+    <line x1="250" y1="355" x2="270" y2="340" stroke="#9a9ac0" stroke-width="1"/>
+    <line x1="350" y1="310" x2="370" y2="295" stroke="#9a9ac0" stroke-width="1"/>
+    <line x1="450" y1="285" x2="470" y2="275" stroke="#9a9ac0" stroke-width="1"/>
+    <line x1="200" y1="375" x2="210" y2="365" stroke="#8a8ab0" stroke-width="1"/>
+    <line x1="300" y1="345" x2="310" y2="335" stroke="#8a8ab0" stroke-width="1"/>
+    <line x1="400" y1="300" x2="410" y1="290" stroke="#8a8ab0" stroke-width="1"/>
+  </g>
+  
+  <!-- Me - following, engaged, moved -->
+  <circle cx="700" cy="320" r="20" fill="none" stroke="#6ac4ff" stroke-width="2" opacity="0.7"/>
+  <circle cx="700" cy="320" r="8" fill="#6ac4ff" opacity="0.4"/>
+  
+  <!-- Connection to the path -->
+  <line x1="50" y1="400" x2="700" y2="320" stroke="#6ac4ff" stroke-width="0.5" opacity="0.2"/>
+  
+  <text x="400" y="560" text-anchor="middle" fill="#9a9aaa" font-size="13" font-family="sans-serif" opacity="0.7">
+    a journey with weight and depth
+  </text>
+</svg>

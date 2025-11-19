@@ -1,0 +1,88 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chromatic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d5a80;stop-opacity:0.7" />
+      <stop offset="30%" style="stop-color:#98c1d9;stop-opacity:0.6" />
+      <stop offset="60%" style="stop-color:#ee6c4d;stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:#293241;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background - darker, more emotional -->
+  <rect width="800" height="600" fill="#1a1a24"/>
+  
+  <!-- Voice line - searching, moving through harmonic space -->
+  <path d="M 50,200 Q 150,180 250,220 T 450,200 T 650,240 T 750,220" 
+        stroke="#e0fbfc" 
+        fill="none" 
+        stroke-width="2.5"
+        opacity="0.8"/>
+  
+  <!-- Piano - dense, rich, supporting but with own life -->
+  <!-- Multiple interweaving lines representing the complex piano texture -->
+  <path d="M 50,300 Q 150,280 250,310 T 450,290 T 650,320 T 750,300" 
+        stroke="url(#chromatic)" 
+        fill="none" 
+        stroke-width="1.5"
+        opacity="0.6"/>
+  
+  <path d="M 50,340 Q 150,360 250,330 T 450,350 T 650,330 T 750,360" 
+        stroke="url(#chromatic)" 
+        fill="none" 
+        stroke-width="1.5"
+        opacity="0.5"/>
+  
+  <path d="M 50,380 Q 150,370 250,390 T 450,380 T 650,400 T 750,380" 
+        stroke="url(#chromatic)" 
+        fill="none" 
+        stroke-width="1.5"
+        opacity="0.4"/>
+  
+  <path d="M 50,420 Q 150,430 250,410 T 450,430 T 650,410 T 750,440" 
+        stroke="url(#chromatic)" 
+        fill="none" 
+        stroke-width="1.5"
+        opacity="0.35"/>
+  
+  <!-- Chromatic movement - the tension points -->
+  <!-- Sharp dissonances creating movement -->
+  <circle cx="200" cy="250" r="6" fill="#ee6c4d" opacity="0.5"/>
+  <circle cx="350" cy="280" r="5" fill="#ee6c4d" opacity="0.45"/>
+  <circle cx="500" cy="260" r="7" fill="#ee6c4d" opacity="0.6"/>
+  <circle cx="650" cy="290" r="5" fill="#ee6c4d" opacity="0.5"/>
+  
+  <!-- Harmonic shifts - modulations -->
+  <g opacity="0.3">
+    <line x1="200" y1="200" x2="200" y2="450" stroke="#98c1d9" stroke-width="0.5"/>
+    <line x1="400" y1="200" x2="400" y2="450" stroke="#98c1d9" stroke-width="0.5"/>
+    <line x1="600" y1="200" x2="600" y2="450" stroke="#98c1d9" stroke-width="0.5"/>
+  </g>
+  
+  <!-- The searching quality - movement without resolution -->
+  <path d="M 100,150 Q 200,140 300,160 Q 400,150 500,170 Q 600,155 700,180" 
+        stroke="#e0fbfc" 
+        fill="none" 
+        stroke-width="1"
+        opacity="0.3"
+        stroke-dasharray="3,3"/>
+  
+  <!-- Emotional quality I can't quite grasp -->
+  <text x="400" y="520" 
+        font-family="serif" 
+        font-size="14" 
+        fill="#98c1d9" 
+        opacity="0.4" 
+        text-anchor="middle"
+        font-style="italic">
+    spanning · zoeken
+  </text>
+  
+  <text x="400" y="550" 
+        font-family="sans-serif" 
+        font-size="11" 
+        fill="#e0fbfc" 
+        opacity="0.3" 
+        text-anchor="middle">
+    iets wil gezegd worden maar ik mis de woorden
+  </text>
+</svg>
