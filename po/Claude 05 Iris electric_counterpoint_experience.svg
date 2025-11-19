@@ -1,0 +1,107 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0a0a0a"/>
+  
+  <!-- Multiple phase-shifted wave patterns -->
+  <g opacity="0.15">
+    <path d="M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300" 
+          stroke="#4a9eff" stroke-width="2" fill="none">
+      <animate attributeName="d" 
+               values="M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300"
+               dur="4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <g opacity="0.2">
+    <path d="M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300" 
+          stroke="#4a9eff" stroke-width="2" fill="none">
+      <animate attributeName="d" 
+               values="M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300"
+               dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <g opacity="0.25">
+    <path d="M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300" 
+          stroke="#6ab4ff" stroke-width="2" fill="none">
+      <animate attributeName="d" 
+               values="M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300"
+               dur="4s" begin="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <g opacity="0.3">
+    <path d="M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300" 
+          stroke="#8ac9ff" stroke-width="2" fill="none">
+      <animate attributeName="d" 
+               values="M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300"
+               dur="4s" begin="1.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <g opacity="0.35">
+    <path d="M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300" 
+          stroke="#aadeff" stroke-width="3" fill="none">
+      <animate attributeName="d" 
+               values="M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300"
+               dur="4s" begin="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <g opacity="0.4">
+    <path d="M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300" 
+          stroke="#caf3ff" stroke-width="3" fill="none">
+      <animate attributeName="d" 
+               values="M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 250, 200 300 T 400 300 T 600 300 T 800 300;
+                       M 0 300 Q 100 350, 200 300 T 400 300 T 600 300 T 800 300"
+               dur="4s" begin="2.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Vertical lines suggesting rhythmic pulse -->
+  <g opacity="0.1">
+    <line x1="100" y1="0" x2="100" y2="600" stroke="#ffffff" stroke-width="1">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="200" y1="0" x2="200" y2="600" stroke="#ffffff" stroke-width="1">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" begin="0.25s" repeatCount="indefinite"/>
+    </line>
+    <line x1="300" y1="0" x2="300" y2="600" stroke="#ffffff" stroke-width="1">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="0" x2="400" y2="600" stroke="#ffffff" stroke-width="1">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" begin="0.75s" repeatCount="indefinite"/>
+    </line>
+    <line x1="500" y1="0" x2="500" y2="600" stroke="#ffffff" stroke-width="1">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" begin="1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="600" y1="0" x2="600" y2="600" stroke="#ffffff" stroke-width="1">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" begin="1.25s" repeatCount="indefinite"/>
+    </line>
+    <line x1="700" y1="0" x2="700" y2="600" stroke="#ffffff" stroke-width="1">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="2s" begin="1.5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Central focal point that emerges from the interference -->
+  <circle cx="400" cy="300" r="30" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6">
+    <animate attributeName="r" values="30;50;30" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="400" cy="300" r="15" fill="none" stroke="#caf3ff" stroke-width="3" opacity="0.8">
+    <animate attributeName="r" values="15;35;15" dur="4s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="4s" begin="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

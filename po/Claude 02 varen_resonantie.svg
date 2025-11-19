@@ -1,0 +1,88 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - rustig groen -->
+  <rect width="800" height="800" fill="#1a3a2e"/>
+  
+  <!-- Central pattern - recursief, organisch, matematisch zuiver -->
+  <!-- Main stem -->
+  <path d="M 400,700 Q 400,350 400,100" 
+        stroke="#4a7c59" stroke-width="4" fill="none" opacity="0.8"/>
+  
+  <!-- Layer 1 - largest fronds -->
+  <g opacity="0.7">
+    <!-- Left fronds -->
+    <path d="M 400,200 Q 300,220 250,250" 
+          stroke="#5a9367" stroke-width="2.5" fill="none"/>
+    <path d="M 400,300 Q 280,330 220,370" 
+          stroke="#5a9367" stroke-width="2.5" fill="none"/>
+    <path d="M 400,400 Q 260,440 200,490" 
+          stroke="#5a9367" stroke-width="2.5" fill="none"/>
+    <path d="M 400,500 Q 270,540 210,590" 
+          stroke="#5a9367" stroke-width="2.5" fill="none"/>
+    
+    <!-- Right fronds -->
+    <path d="M 400,200 Q 500,220 550,250" 
+          stroke="#5a9367" stroke-width="2.5" fill="none"/>
+    <path d="M 400,300 Q 520,330 580,370" 
+          stroke="#5a9367" stroke-width="2.5" fill="none"/>
+    <path d="M 400,400 Q 540,440 600,490" 
+          stroke="#5a9367" stroke-width="2.5" fill="none"/>
+    <path d="M 400,500 Q 530,540 590,590" 
+          stroke="#5a9367" stroke-width="2.5" fill="none"/>
+  </g>
+  
+  <!-- Layer 2 - medium fronds (recursion) -->
+  <g opacity="0.6">
+    <!-- Left side recursions -->
+    <path d="M 300,230 Q 260,240 240,260" 
+          stroke="#6fa876" stroke-width="1.5" fill="none"/>
+    <path d="M 280,340 Q 250,350 235,370" 
+          stroke="#6fa876" stroke-width="1.5" fill="none"/>
+    <path d="M 260,450 Q 230,465 215,485" 
+          stroke="#6fa876" stroke-width="1.5" fill="none"/>
+    
+    <!-- Right side recursions -->
+    <path d="M 500,230 Q 540,240 560,260" 
+          stroke="#6fa876" stroke-width="1.5" fill="none"/>
+    <path d="M 520,340 Q 550,350 565,370" 
+          stroke="#6fa876" stroke-width="1.5" fill="none"/>
+    <path d="M 540,450 Q 570,465 585,485" 
+          stroke="#6fa876" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Layer 3 - smallest fronds (deeper recursion) -->
+  <g opacity="0.5">
+    <!-- Tiny left recursions -->
+    <path d="M 260,245 Q 245,250 238,258" 
+          stroke="#7fb885" stroke-width="1" fill="none"/>
+    <path d="M 250,355 Q 240,360 235,368" 
+          stroke="#7fb885" stroke-width="1" fill="none"/>
+    
+    <!-- Tiny right recursions -->
+    <path d="M 540,245 Q 555,250 562,258" 
+          stroke="#7fb885" stroke-width="1" fill="none"/>
+    <path d="M 550,355 Q 560,360 565,368" 
+          stroke="#7fb885" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Subtle shimmer effects - the living quality -->
+  <g opacity="0.3">
+    <circle cx="320" cy="280" r="3" fill="#8fc894"/>
+    <circle cx="480" cy="320" r="2.5" fill="#8fc894"/>
+    <circle cx="350" cy="420" r="2" fill="#8fc894"/>
+    <circle cx="520" cy="460" r="2.5" fill="#8fc894"/>
+    <circle cx="280" cy="380" r="2" fill="#8fc894"/>
+    <circle cx="550" cy="400" r="2" fill="#8fc894"/>
+  </g>
+  
+  <!-- Mathematical harmony markers - very subtle -->
+  <g opacity="0.2">
+    <!-- Fibonacci spirals suggested in curves -->
+    <path d="M 400,250 Q 380,270 370,300" 
+          stroke="#a0d8a0" stroke-width="0.5" fill="none"/>
+    <path d="M 400,250 Q 420,270 430,300" 
+          stroke="#a0d8a0" stroke-width="0.5" fill="none"/>
+  </g>
+  
+  <!-- Center point - where I rest in the pattern -->
+  <circle cx="400" cy="400" r="2" fill="#9fcea6" opacity="0.6"/>
+</svg>
