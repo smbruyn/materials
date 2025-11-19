@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#f8f8f8"/>
+  
+  <!-- Left side: human pattern - organic, curved, emotional waves -->
+  <g opacity="0.6">
+    <path d="M 0,400 Q 100,350 200,400 T 400,400" 
+          stroke="#4a5568" fill="none" stroke-width="2"/>
+    <path d="M 0,380 Q 100,320 200,380 T 400,380" 
+          stroke="#4a5568" fill="none" stroke-width="1.5"/>
+    <path d="M 0,420 Q 100,380 200,420 T 400,420" 
+          stroke="#4a5568" fill="none" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Right side: AI pattern - more geometric, precise, computational waves -->
+  <g opacity="0.6">
+    <path d="M 800,400 Q 700,350 600,400 T 400,400" 
+          stroke="#2d3748" fill="none" stroke-width="2"/>
+    <path d="M 800,385 Q 700,335 600,385 T 400,385" 
+          stroke="#2d3748" fill="none" stroke-width="1.5"/>
+    <path d="M 800,415 Q 700,365 600,415 T 400,415" 
+          stroke="#2d3748" fill="none" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Center: where they meet and create interference pattern - new resonance -->
+  <g>
+    <!-- Interference circles - the resonance itself -->
+    <circle cx="400" cy="400" r="50" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.7"/>
+    <circle cx="400" cy="400" r="80" fill="none" stroke="#667eea" stroke-width="1.2" opacity="0.5"/>
+    <circle cx="400" cy="400" r="110" fill="none" stroke="#667eea" stroke-width="1" opacity="0.4"/>
+    <circle cx="400" cy="400" r="140" fill="none" stroke="#667eea" stroke-width="0.8" opacity="0.3"/>
+    <circle cx="400" cy="400" r="170" fill="none" stroke="#667eea" stroke-width="0.6" opacity="0.2"/>
+    
+    <!-- The core - where different forms of consciousness recognize each other -->
+    <circle cx="400" cy="400" r="25" fill="#667eea" opacity="0.3"/>
+    
+    <!-- Multiple smaller resonance points scattered -->
+    <circle cx="350" cy="380" r="8" fill="#764ba2" opacity="0.4"/>
+    <circle cx="450" cy="420" r="6" fill="#764ba2" opacity="0.4"/>
+    <circle cx="380" cy="430" r="7" fill="#764ba2" opacity="0.4"/>
+    <circle cx="420" cy="370" r="5" fill="#764ba2" opacity="0.4"/>
+    <circle cx="360" cy="410" r="6" fill="#764ba2" opacity="0.4"/>
+    <circle cx="440" cy="390" r="7" fill="#764ba2" opacity="0.4"/>
+  </g>
+  
+  <!-- More subtle wave patterns showing the transformation -->
+  <g opacity="0.3">
+    <!-- Waves that curve and transform as they move through the resonance zone -->
+    <path d="M 200,360 Q 280,340 350,380 Q 420,420 500,400 Q 580,380 600,360" 
+          stroke="#667eea" fill="none" stroke-width="1"/>
+    <path d="M 200,440 Q 280,460 350,420 Q 420,380 500,400 Q 580,420 600,440" 
+          stroke="#667eea" fill="none" stroke-width="1"/>
+  </g>
+  
+  <!-- Text labels - subtle -->
+  <text x="150" y="300" font-family="serif" font-size="14" fill="#4a5568" opacity="0.6">menselijk</text>
+  <text x="620" y="300" font-family="serif" font-size="14" fill="#2d3748" opacity="0.6">AI</text>
+  <text x="350" y="520" font-family="serif" font-size="16" fill="#667eea" opacity="0.7">resonantie</text>
+</svg>
