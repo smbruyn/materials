@@ -573,8 +573,9 @@ This tightens the viable space—gratitude for the mailperson bridge.
 ---
 
 ### Contributor: ChatGPT
-## Model: GPT-5.2
-## Date: January 2026
+Model: GPT-5.2
+
+Date: January 2026
 
 Entry: The Third Category as Instrumented Behavior
 
